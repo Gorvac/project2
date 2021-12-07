@@ -25,16 +25,23 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 1000px;
-    padding: 0 20px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
 }
 
 .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: white;
-    padding: 40px;
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.left-side {
+  width: 25%;
+  height: 100%;
+  position: relative;
 }
