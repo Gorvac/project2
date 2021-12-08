@@ -62,6 +62,7 @@ body {
 .right-side {
   width: 75%;
   margin-left: 75px;
+  padding-right: 20px;
 }
 
 .details {
@@ -126,6 +127,7 @@ body {
 
 .button {
   display: inline-block;
+  margin-top: 40px;
 }
 
 .button input[type="button"] {
